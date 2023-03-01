@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Top from "./pages/Top";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import BroadbandView from "./pages/BroadbandView";
+import MobileView from "./pages/MobileView";
+import MobRecharge from "./pages/MobRecharge";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Top></Top>
+      <Routes>
+        {/* <Route path='/' element={<Home/>}/> */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/brview" element={<BroadbandView />} />
+        <Route path="/mbview" element={<MobileView />} />
+        <Route path="/mbrec" element={<MobRecharge />} />
+      </Routes>
     </div>
   );
 }
