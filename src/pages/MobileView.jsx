@@ -84,21 +84,6 @@ const MobileView = () => {
         </Offcanvas.Body>
       </Offcanvas>
 
-      {/* <div className="fix">
-        <Breadcrumb
-          style={{
-            marginLeft: "10px",
-            marginTop: "10px",
-            marginRight: "-50px",
-            paddingRight: "6px",
-          }}
-        >
-          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">View Plans</Breadcrumb.Item>
-          <Breadcrumb.Item active>Mobile</Breadcrumb.Item>
-        </Breadcrumb>
-      </div> */}
-
       <h1 className="home-btn">Best seller Unlimited plans</h1>
       <p className="br-sub">
         Choose a prepaid mobile plan that suits your unique digital aspirations.
@@ -128,6 +113,7 @@ const MobileView = () => {
                 <img
                   style={{ width: "80px", marginLeft: "70px" }}
                   src={mbad}
+                  alt="none"
                 ></img>
               </Card.Title>
               <Card.Subtitle style={{ marginTop: "35px" }} className="mb-2">

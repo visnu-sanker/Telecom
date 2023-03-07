@@ -19,16 +19,16 @@ const Login = () => {
       if (response.data.error) {
         alert(response.data.error);
       } else {
-        // sessionStorage.setItem("accessToken", response.data.accessToken);
-        // navigate("/doclogin", {
-        //   state: {
-        //     id: response.data.userDetails.id,
-        //     name: response.data.userDetails.name,
-        //     spl: response.data.userDetails.spl,
-        //   },
-        // });
+        sessionStorage.setItem("jwt", response.data.jwt);
+        navigate("/user", {
+          state: {
+            email: response.data.userEmail,
+            name: response.data.userName,
+          },
+        });
         console.log(response.data);
-        alert("1");
+        // console.log("jwt", response.data.jwt);
+        // alert("1");
       }
     });
   };

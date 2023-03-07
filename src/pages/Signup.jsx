@@ -6,6 +6,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Row from "react-bootstrap/Row";
 import TextField from "@mui/material/TextField";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const [Name, setName] = useState("");
@@ -13,6 +14,7 @@ const Signup = () => {
   const [Password, setPassword] = useState("");
   const [Mobile, setMobile] = useState("");
   const [Username, setUsername] = useState("");
+  const navigate = useNavigate();
 
   const [validated, setValidated] = useState(false);
 
@@ -29,16 +31,9 @@ const Signup = () => {
       if (response.data.error) {
         alert(response.data.error);
       } else {
-        // sessionStorage.setItem("accessToken", response.data.accessToken);
-        // navigate("/doclogin", {
-        //   state: {
-        //     id: response.data.userDetails.id,
-        //     name: response.data.userDetails.name,
-        //     spl: response.data.userDetails.spl,
-        //   },
-        // });
+        navigate("/login");
         console.log(response.data);
-        alert("1");
+        alert("User Registered!");
       }
     });
   };

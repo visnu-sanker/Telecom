@@ -317,16 +317,16 @@ const BroadbandView = () => {
             >
               <Card.Body>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  Basic Plan
+                  Super Plan
                 </Card.Subtitle>
                 <Card.Title className="fon" style={{ color: "yellow" }}>
-                  <u>40 Mbps Speed</u>
+                  <u>150 Mbps Speed</u>
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "13px" }}>
-                  500 GB monthly data
+                  1500 GB monthly data
                 </Card.Text>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  ₹549/month
+                  ₹1200/month
                 </Card.Subtitle>
                 <div style={{ marginTop: "35px" }}>
                   <Button
@@ -381,16 +381,16 @@ const BroadbandView = () => {
             >
               <Card.Body>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  Basic Plan
+                  Lightening Plan
                 </Card.Subtitle>
                 <Card.Title className="fon" style={{ color: "yellow" }}>
-                  <u>40 Mbps Speed</u>
+                  <u>300 Mbps Speed</u>
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "13px" }}>
-                  500 GB monthly data
+                  2000 GB monthly data
                 </Card.Text>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  ₹549/month
+                  ₹1300/month
                 </Card.Subtitle>
                 <div style={{ marginTop: "35px" }}>
                   <Button
@@ -433,16 +433,16 @@ const BroadbandView = () => {
             >
               <Card.Body>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  Basic Plan
+                  Ultra Plan
                 </Card.Subtitle>
                 <Card.Title className="fon" style={{ color: "yellow" }}>
-                  <u>40 Mbps Speed</u>
+                  <u>500 Mbps Speed</u>
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "13px" }}>
-                  500 GB monthly data
+                  *Unlimited GB monthly data
                 </Card.Text>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  ₹549/month
+                  ₹1500/month
                 </Card.Subtitle>
                 <div style={{ marginTop: "35px" }}>
                   <Button
@@ -484,16 +484,16 @@ const BroadbandView = () => {
             >
               <Card.Body>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  Basic Plan
+                  Blaze Plan
                 </Card.Subtitle>
                 <Card.Title className="fon" style={{ color: "yellow" }}>
-                  <u>40 Mbps Speed</u>
+                  <u>1000 Mbps Speed</u>
                 </Card.Title>
                 <Card.Text style={{ color: "white", fontSize: "13px" }}>
-                  500 GB monthly data
+                  *Unlimited GB monthly data
                 </Card.Text>
                 <Card.Subtitle style={{ color: "white" }} className="mb-2">
-                  ₹549/month
+                  ₹1999/month
                 </Card.Subtitle>
                 <div style={{ marginTop: "35px" }}>
                   <Button
